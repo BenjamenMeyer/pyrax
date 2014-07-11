@@ -110,6 +110,10 @@ class IdentityClassNotDefined(PyraxException):
 class InternalServerError(PyraxException):
     pass
 
+
+class InvalidApiVersion(PyraxException):
+    pass
+
 class InvalidCDNMetadata(PyraxException):
     pass
 
@@ -177,6 +181,9 @@ class InvalidSize(PyraxException):
     pass
 
 class InvalidTemporaryURLMethod(PyraxException):
+    pass
+
+class InvalidTimeZone(PyraxException):
     pass
 
 class InvalidUploadID(PyraxException):
